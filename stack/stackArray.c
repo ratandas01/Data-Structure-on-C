@@ -24,7 +24,7 @@ void pop(){
 
 void peek(){
     if(top == -1){
-        printf("Stack Underflow\n");
+        printf("Stack is Empty\n");
         return;
     }
     printf("Top element: %d\n", stack[top]);

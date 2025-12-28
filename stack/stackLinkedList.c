@@ -23,7 +23,7 @@ void push(){
     scanf("%d", &value);
     
     ll temp = createNode(value);
-    
+
     temp->next = top;
     top = temp;
 }
@@ -42,7 +42,7 @@ void pop(){
 
 void peek(){
     if(top == NULL){
-        printf("Stack Underflow\n");
+        printf("Stack is Empty\n");
         return;
     }
 
